@@ -1,0 +1,131 @@
+.navbar-navbar-container {
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.navbar-image1 {
+  width: 106px;
+}
+ 
+.navbar-nav1 {
+  display: flex;
+}
+ 
+.navbar-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.navbar-nav2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.navbar-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.navbar-image2 {
+  width: 106px;
+}
+ 
+.navbar-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navbar-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.navbar-primary-btn1 {
+  margin-top: var(--dl-layout-space-oneandhalfunits);
+}
+ 
+.navbar-social-media {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.navbar-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-oneandhalfunits);
+}
+ 
+.navbar-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.navbar-icon14 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.navbar-icon14:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+ 
+.navbar-icon18 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.navbar-icon18:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+ 
+.navbar-icon22 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.navbar-icon22:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+ 
+.navbar-icon24 {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+ 
+.navbar-icon24:hover {
+  fill: var(--dl-color-backgrounds-primary);
+  cursor: pointer;
+}
+ 
+@media(max-width: 767px) {
+  .navbar-nav1 {
+    display: none;
+  }
+  .navbar-primary-btn2 {
+    display: none;
+  }
+}
